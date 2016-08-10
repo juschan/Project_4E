@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rental.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @rental.address %>
+</p>
+
+<p>
+  <strong>Property type:</strong>
+  <%= @rental.property_type %>
+</p>
+
+<p>
+  <strong>Tenure:</strong>
+  <%= @rental.tenure %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @rental.size %>
+</p>
+
+<p>
+  <strong>Psf:</strong>
+  <%= @rental.psf %>
+</p>
+
+<p>
+  <strong>Listingid:</strong>
+  <%= @rental.listingID %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @rental.price %>
+</p>
+
+<p>
+  <strong>Beds:</strong>
+  <%= @rental.beds %>
+</p>
+
+<p>
+  <strong>Baths:</strong>
+  <%= @rental.baths %>
+</p>
+
+<p>
+  <strong>Furnishing:</strong>
+  <%= @rental.furnishing %>
+</p>
+
+<p>
+  <strong>Floor level:</strong>
+  <%= @rental.floor_level %>
+</p>
+
+<p>
+  <strong>Agent:</strong>
+  <%= @rental.agent %>
+</p>
+
+<%= link_to 'Edit', edit_rental_path(@rental) %> |
+<%= link_to 'Back', rentals_path %>
